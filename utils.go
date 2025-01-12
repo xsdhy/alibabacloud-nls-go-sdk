@@ -22,7 +22,7 @@ import (
 	"io"
 	"strings"
 
-	uuid "github.com/satori/go.uuid"
+	"github.com/google/uuid"
 )
 
 const (
@@ -145,6 +145,6 @@ func LoadPcmInChunk(r io.Reader, chunkSize int) *ChunkBuffer {
 }
 
 func getUuid() string {
-	uuid, _ := uuid.NewV4()
+	uuid := uuid.New()
 	return strings.ReplaceAll(uuid.String(), "-", "")
 }
