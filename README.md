@@ -19,13 +19,13 @@
 
 通过以下命令完成SDK下载和安装：
 
-> go get github.com/aliyun/alibabacloud-nls-go-sdk
+> go get github.com/xsdhy/alibabacloud-nls-go-sdk
 
 2. 导入SDK
 
 在代码中通过将以下字段加入import来导入SDK：
 
-> import ("github.com/aliyun/alibabacloud-nls-go-sdk")
+> import ("github.com/xsdhy/alibabacloud-nls-go-sdk")
 
 
 
@@ -407,7 +407,7 @@ import (
         "sync"
         "time"
 
-        "github.com/aliyun/alibabacloud-nls-go-sdk"
+        "github.com/xsdhy/alibabacloud-nls-go-sdk"
 )
 
 const (
@@ -748,7 +748,7 @@ import (
         "sync"
         "time"
 
-         "github.com/aliyun/alibabacloud-nls-go-sdk"
+         "github.com/xsdhy/alibabacloud-nls-go-sdk"
 )
 
 const (
@@ -1061,7 +1061,7 @@ import (
         "sync"
         "time"
 
-         "github.com/aliyun/alibabacloud-nls-go-sdk"
+         "github.com/xsdhy/alibabacloud-nls-go-sdk"
 )
 
 const (

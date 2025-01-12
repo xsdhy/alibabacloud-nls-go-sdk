@@ -145,5 +145,6 @@ func LoadPcmInChunk(r io.Reader, chunkSize int) *ChunkBuffer {
 }
 
 func getUuid() string {
-	return strings.ReplaceAll(uuid.NewV4().String(), "-", "")
+	uuid, _ := uuid.NewV4().String()
+	return strings.ReplaceAll(uuid, "-", "")
 }
